@@ -78,7 +78,7 @@ func click() {
 			return
 		}
 		clickDelay := atomic.LoadInt64(&delay)
-		time.Sleep(time.Microsecond * time.Duration(clickDelay))
+		time.Sleep(time.Millisecond * time.Duration(clickDelay))
 	}
 }
 
