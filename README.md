@@ -23,6 +23,13 @@ Thats just clicker. Automatically clicks at mouse position.
 
 Written in one night just for concept.
 May not be changed.
+Tested only on windows.
+
+### Build
+
+Just `go build .` in cmd directory.
+
+To start without console add `-ldflags "-H=windowsgui"`
 
 ## TODOs
 
